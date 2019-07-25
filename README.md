@@ -14,7 +14,7 @@ according to fishpro's cnblogs build spring-boot demo
 * ##### 如果是多module,打包时要先打被依赖的module,在其pom中加入
 	>``` xml
 	><build>
-    >    <plugins>
+    >   <plugins>
     >        <plugin>
     >            <groupId>org.springframework.boot</groupId>
     >            <artifactId>spring-boot-maven-plugin</artifactId>
@@ -26,3 +26,6 @@ according to fishpro's cnblogs build spring-boot demo
     ></build>
 	>```
 	>##### 再打包主module,在target文件夹得到.jar文件
+* ##### 热部署配置
+    >1.pom文件修改  
+    >2.idea相关设置
